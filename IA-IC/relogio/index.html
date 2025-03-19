@@ -20,6 +20,17 @@
   <div class="blue"></div>
 </div>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+      alterarPagina(30000);
+  });
 
+  function alterarPagina(timer) {
+      setTimeout(() => {
+          window.location.replace('https://ici-inc.github.io/sinido/noticia/index.html');
+      }, timer);
+  }
+</script>
+  
 </body>
 </html>
