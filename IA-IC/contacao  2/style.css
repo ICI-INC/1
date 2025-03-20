@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  overflow-y: hidden; /* Hide scrollbars */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 body {
